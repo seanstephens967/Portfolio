@@ -1,0 +1,49 @@
+.container{
+    background: url("./Assets/jr-farren-q8FTpwMKr9M-unsplash.jpg");
+}
+.navbar{
+display: flex;
+justify-content: flex-end;
+}
+.header{
+    height: 500px;
+}
+.header h1{
+    padding: 10%;
+    font-size: 75px;
+}
+.background{
+    background: url("./Assets/jr-farren-q8FTpwMKr9M-unsplash.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.background2{
+    background: url("./Assets/background-3.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+}
+h3{
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+.portfolio{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.about{
+    background-color: grey;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

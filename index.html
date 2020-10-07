@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <title>Portfolio</title>
+  </head>
+  <body>
+      <nav class="navbar navbar-expand-sm navbar-dark bg-dark ">
+            <div class="navbar-nav">
+              <a class="nav-item nav-link" href="#middle">About Me</a>
+              <a class="nav-item nav-link" href="#bottom">Portfolio</a>
+              <a class="nav-item nav-link" href="#middle">Contact</a>
+            </div>
+          </div>
+          </nav>
+            
+      <div class="header text-center text-white text-bottom background">
+        <h1 class="display-12">Sean Stephens</h1>
+        <p class="lead">Software Development Student</p>
+        
+      </div>
+
+      <div class="about text-center text-black">
+        <div id="middle"></div>
+         <h2 class="display-4">About Me</h2>
+         <p class="lead">I am a Software Development student at the Eleven Fifty Academy.</p>
+         <p>I have been a resident of Indianpolis for the last 10 years.</p>
+         <p>In those 10 years I've been an executive director and in management in both the hospitality and retail industry.</p>
+         <p>With the knowledge and skills I've gained in the workforce. I have considered my self an "Ambassador" of the city.</p>
+         <p>I am excited to pair my experience and IT traning to provide solution to customers and employers of Indianapolis.</p>
+         <h2>Contact Me</h2>
+         <p>I would love to connect</p>
+         <p>Leave your information below</p>
+         <form class="contact" action="https://formspree.io/f/xrgoekjy" method="POST">
+          <div class="col-sm-7 slideanim">
+            <div class="row">
+              <div class="col-sm-6 form-group">
+                <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+              </div>
+              <div class="col-sm-6 form-group">
+                <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+              </div>
+            </div>
+            <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+            <div class="row">
+              <div class="col-sm-12 form-group">
+                <button class="btn btn-default pull-right" type="submit">Send</button>
+              </div>
+            </div>
+          </div>
+          </form>
+     </div>
+
+     <h3>Portfolio</h3>
+          <div class="portfolio">
+              <div id="bottom"></div>
+              <div class="col-md-4">
+                  <button id="creature"onclick="window.location.href ='https://codepen.io/seanstephens967/pen/wvGmeJr';"><img src="./Assets/Creature-Assignment.png" class="card-img-top img-fluid"></button>
+              </div>
+              <div class="col-md-4">
+                  <button id="storefront"onclick="window.location.href ='https://seanstephens967.github.io/storefrontfinal/';"><img src="./Assets/Store.png" class="card-img-top img-fluid"></button>
+              </div>
+              <div class="col-md-4">
+                <button id="gbchallenges"onclick="window.location.href ='https://github.com/seanstephens967/GoldBadge_ConsoleAppChallenges';"><img src="./Assets/csharp.png" class="card-img-top img-fluid"></button>
+              </div>
+          </div>
+          </div>
+            
+            <footer class="name text-white text-center bg-dark p-2"><p class="lead"></p>Sean Stephens</p>
+              <a href="https://www.linkedin.com/in/sean-stephens-84845332/"><img src="./Assets/codepen.png" class="circle" width="30" height="30"></a>
+              <a href="https://github.com/seanstephens967"><img src="./Assets/github.png" class="circle" width="30" height="30"></a>
+              <a href="https://www.linkedin.com/in/sean-stephens-84845332/"><img src="./Assets/linkedin.png" class="circle" width="30" height="30"></a>
+            </footer>   
+  </body>
